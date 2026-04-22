@@ -22,8 +22,8 @@ body{
    
 }
 .profile-image{
-   width: 110px;
-  height: 110px;
+   width: 100%;
+  
   border-radius: 50%;
   object-fit: cover;
   display: block;
