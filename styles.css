@@ -1,11 +1,11 @@
-body{
+.unique{
   background-color:rosybrown;
   font-family: Arial, sans-serif;
    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
 }
 .business-card{
   width:300px;
@@ -25,6 +25,7 @@ body{
    max-width: 100%;
     display: block;
     border-radius: 12px solid #D9A5A5;
+    
 }
 
 p{
@@ -54,4 +55,127 @@ h2 {
 }
 a:hover {
   color: #D9A5A5;
+}
+.small-projects{
+  background-image: url("https://plus.unsplash.com/premium_photo-1669131388697-fab59ba90484?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+}
+  nav{
+    text-align: justify;
+  }
+.head{
+  margin-top: 20px;
+  padding: 12px;
+}
+.home{
+  margin: 20px;
+  
+  border: 2px solid burlywood;
+  border-radius: 15px;
+  background-color:white;
+  padding-bottom: 13px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10PX;
+  font-size:larger;
+}
+.home:hover{
+  color: #FFF8F6;
+}
+.about{
+  margin: 20px;
+  border: 2px solid burlywood;
+  border-radius: 15px;
+  background-color:white;
+  padding-bottom: 13px;
+   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10PX;
+  font-size:larger;
+  font-size:larger;
+}
+.about:hover{
+  color: #FFF8F6;
+}
+.dashboard{
+  margin: 20px;
+ 
+  border: 2px solid burlywood;
+  border-radius: 15px;
+  background-color:white;
+  padding-bottom: 13px;
+   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10PX;
+  font-size:larger;
+  font-size:larger;
+}
+.dashboard:hover{
+  color: #FFF8F6;
+}
+
+.faq{
+  margin: 20px;
+  
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color:#006994;
+  padding-bottom: 13px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10PX;
+  font-size:larger;
+
+}
+.faq:hover{
+  color: #FFF8F6;
+}
+.name{
+  padding-left: 10px;
+  padding-right:10px ;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(19, 19, 17);
+}
+.foot{
+  padding: 20px;
+  margin-top: auto;
+  color: lab(86.44% -12.84 85.05);
+  text-align: center;
+}
+h2 {
+  color: aqua;
+}
+.location{
+  color:aqua;
+}
+.tel{
+  color:aqua;
+}
+.email{
+  color:aqua;
+}
+.name{
+  color:#F8F9FA;
+}
+.home, .about, .dashboard, .faq {
+  background-color: #006994; /* Sea Blue button */
+  color: #FFFFFF;           /* White text */
+  border: 2px solid white;
 }
