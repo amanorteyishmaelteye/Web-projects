@@ -31,6 +31,9 @@
   padding-left: 10px;
   background-color: #F8F9FA;
   max-width: 100%;
+   display: flex;           /* Pushes items into a row */
+  flex-direction: row;     /* Forces the horizontal direction */
+  flex-wrap: nowrap
 }
 .home, .about, .dashboard ,.faq {
   margin: 10px;
@@ -40,9 +43,7 @@
   color: black;  
   text-decoration: none; 
   font-size: 1.5rem;
-   display: flex;           /* Pushes items into a row */
-  flex-direction: row;     /* Forces the horizontal direction */
-  flex-wrap: nowrap; 
+  ; 
 }
 .home:hover{
   color: #006994;;
