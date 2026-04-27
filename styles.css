@@ -23,7 +23,8 @@
   flex-direction: row;     /* Forces the horizontal direction */
   flex-wrap: nowrap;       /* Prevents them from jumping to the next line */
   justify-content: space-between;
-  padding-left:20px;
+  padding-left:10px;
+  padding-left:3px;
   }
 .head{
   margin-top: 5px;
