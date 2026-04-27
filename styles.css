@@ -13,10 +13,16 @@
   flex-direction: column;
   min-height: 100vh;
   margin: 0px;
+  max-width: 100%;
 }
   nav{
-    text-align: left;
-    max-width: 100%;
+  text-align: left;
+  max-width: 100%;
+  display: flex;           /* Pushes items into a row */
+  flex-direction: row;     /* Forces the horizontal direction */
+  flex-wrap: nowrap;       /* Prevents them from jumping to the next line */
+  justify-content: space-between;
+  padding-left:20px;
   }
 .head{
   margin-top: 5px;
