@@ -32,8 +32,6 @@
 }
 .home, .about, .dashboard ,.faq {
   margin: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
   padding-left: 10px;
   padding-right: 0PX;
   font-weight: 700;
@@ -72,7 +70,7 @@ h1{
   padding-top: auto;
   box-sizing: border-box;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;  
   font-style: italic;
   height: 17vh; 
@@ -80,9 +78,8 @@ h1{
   justify-content: center; /* Centers horizontally (Left to Right) */
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h1:hover{
-text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  flex-direction: row;     /* Forces the horizontal direction */
+  flex-wrap: nowrap;       /* Prevents them from jumping to the next line */
 }
 .foot{
   
