@@ -22,7 +22,7 @@
   display: flex;           /* Pushes items into a row */
   flex-direction: row;     /* Forces the horizontal direction */
   flex-wrap: nowrap;       /* Prevents them from jumping to the next line */
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left:10px;
   padding-left:3px;
   }
