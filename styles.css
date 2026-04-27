@@ -42,6 +42,7 @@
   text-decoration: none; 
   font-size: 1.2rem;
   display: inline-block; 
+  box-shadow:5px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .home:hover{
   color: #006994;;
@@ -96,5 +97,4 @@ h1{
   align-items: center;
   text-align: center;
   color: white;
-  box
 }
