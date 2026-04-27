@@ -15,71 +15,34 @@
   margin: 0px;
 }
   nav{
-    text-align: justify;
+    text-align: left;
+    max-width: 100%;
   }
 .head{
   margin-top: 5px;
   padding: 12px;
   background-color: #F8F9FA;
+  max-width: 100%;
 }
-.home{
-  margin: 20px;
-  
-  
-  border-radius: 15px;
-  
-  padding-bottom: 13px;
+.home, .about, .dashboard ,.faq {
+  margin: 10px;
+  padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
-  padding-right: 10PX;
-  font-size:larger;
+  padding-right: 0PX;
+  font-weight: 700;
+  color: black;  
+  text-decoration: none; 
+  font-size: 1.5rem;
 }
 .home:hover{
   color: #006994;;
-}
-.about{
-  margin: 20px;
-  
-  border-radius: 15px;
-  
-  padding-bottom: 13px;
-   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10PX;
-  font-size:larger;
-  font-size:larger;
-}
+} 
 .about:hover{
   color:#006994;;
 }
-.dashboard{
-  margin: 20px;
- 
-  
-  border-radius: 15px;
-  
-  padding-bottom: 13px;
-   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10PX;
-  font-size:larger;
-  font-size:larger;
-}
 .dashboard:hover{
   color: #006994;;
-}
-
-.faq{
-  margin: 20px;
-  
-  border-radius: 15px;
-  
-  padding-bottom: 13px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10PX;
-  font-size:larger;
-
 }
 .faq:hover{
   color: #006994;;
@@ -98,22 +61,13 @@
 h2 {
   color: white;
 }
-.home, .about, .dashboard, .faq {
-   /* Sea Blue button */
-  color: black;  
-  color: (255, 255, 255, 0.8);
-  text-decoration: none; 
-  font-weight: 700; 
-  font-size: 1.5rem;    /* White text */
-  
-}
 h1{
   
-  padding-top: 10px;
+  padding-top: auto;
   box-sizing: border-box;
   color: white;
   font-size: 5rem;
- font-weight: 900;  
+  font-weight: 900;  
   font-style: italic;
   height: 17vh; 
   display: flex;         /* Enables Flexbox */
