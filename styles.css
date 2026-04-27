@@ -31,7 +31,7 @@
   padding-left: 10px;
   background-color: #F8F9FA;
   max-width: 100%;
-   display: flex;           /* Pushes items into a row */
+   display: block;           /* Pushes items into a row */
   flex-direction: row;     /* Forces the horizontal direction */
   flex-wrap: nowrap
 }
